@@ -1,6 +1,6 @@
 /*
 #easy
-#important
+#two
 
 Find the missing element in a given permutation.
 

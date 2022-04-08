@@ -1,6 +1,6 @@
 /*
 #medium
-#important
+#two
 
 Compute number of integers divisible by k in range [a..b] - without looping, in constant time.
 

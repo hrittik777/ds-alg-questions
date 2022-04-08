@@ -1,6 +1,6 @@
 /*
 #medium
-#very_important
+#three
 
 Find the minimal nucleotide from a range of sequence DNA.
 

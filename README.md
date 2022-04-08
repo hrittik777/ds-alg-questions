@@ -9,6 +9,8 @@
   - `#medium`
   - `#hard`
 
-- Importance:
-  - `#important`
-  - `#very_important`
+- Importance (Stars):
+  - `#two`
+  - `#three`
+  - `#four`
+  - `#five`
