@@ -11,12 +11,12 @@ Instead of grinding straight through a hundred million questions, I'll be follow
 For concepts and code implementations, in JavaScript, for the data structures and algorithms used, see [this](https://github.com/hrittik777/ds-alg-concepts-js) repository.
 
 #### Questions Lists:
-- Codility Lessons
+- Codility lessons
   - [Questions](https://app.codility.com/programmers/lessons/1-iterations/)
   - [Solutions](https://github.com/hrittik777/ds-alg-questions-js/tree/main/codility-lessons)
 - Blind 75:
   - Questions
-  - SOlutions
+  - Solutions
 
 #### Filters:
 - Dificulty:
@@ -32,3 +32,7 @@ For concepts and code implementations, in JavaScript, for the data structures an
 
 #### How to run:
 - run `node .<path_to_file>`
+
+#### Acknowledgements and helpful resources:
+- Video solutions to Codility lessons: https://www.youtube.com/playlist?list=PLwEOixRFAUxZHuTDDgdmE0d4I40mBZLbF
+
