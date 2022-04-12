@@ -34,7 +34,6 @@ Given
 
 the function should return [1, 2, 3, 4]
 */
-
 function mul(a, b) {
   let i = 1;
 
