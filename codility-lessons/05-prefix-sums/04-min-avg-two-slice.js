@@ -40,3 +40,41 @@ For example, given array A such that:
     
 the function should return 1, as explained above.
 */
+
+/* HINT: 
+slices of 4 or more numbers always contain a sub-slice with a lower average
+therefore, only slices with 2 or 3 elements need to be tested in our algorithm
+
+so,for each element in the array, A[i]:
+  - find average of A[i], A[i + 1]
+  - find average of A[i], A[i + 1], A[i + 2]
+  - save the minimum and start index
+
+see: https://www.youtube.com/watch?v=Xu_hTjFAauk
+*/
+function minAvgTwoSlice(A) {
+  // initializing minSlice to a number that is definitely larger than the entire array's average
+  let minSlice = A.reduce((i, a) => i + a) / (A.length - 1) + 999;
+  let minIndex = 0;
+
+  for (let i = 0; i < A.length - 2; i += 1) {
+    let avgTwo = (A[i] + A[i + 1]) / 2;
+    let avgThree = (A[i] + A[i + 1] + A[i + 2]) / 3;
+    let avgMin = Math.min(avgTwo, avgThree);
+
+    if (avgMin < minSlice) {
+      minSlice = avgMin;
+      minIndex = i;
+    }
+  }
+
+  // edge case: last 2 elements
+  let lastTwo = A.slice(A.length - 2);
+  let lastTwoAvg = (lastTwo[0] + lastTwo[1]) / 2;
+
+  if (lastTwoAvg < minSlice) return A.length - 2;
+
+  return minIndex;
+}
+
+minAvgTwoSlice([4, 2, 2, 5, 1, 5, 8]);

@@ -5,8 +5,9 @@ This repository contains solutions in JavaScript to Data Structures and Algorith
 - Codility
 - Cracking The Coding Interview
 - Hackerrank
+- GFG
 
-Instead of grinding straight through a hundred million questions, I'll be following some of the well-known **lists of problems** available online, to short-circuit the learning process and get a grasp over the common patterns of questions, before moving on to more challenging questions and CC platforms.
+Instead of grinding straight through a hundred million questions, we'll be following some of the well-known **lists of problems** available online, to short-circuit the learning process and get a grasp over the common patterns of questions, before moving on to more challenging questions and CC platforms.
 
 For concepts and code implementations, in JavaScript, for the data structures and algorithms used, see [this](https://github.com/hrittik777/ds-alg-concepts-js) repository.
 
@@ -34,7 +35,7 @@ For concepts and code implementations, in JavaScript, for the data structures an
 - run `node .<path_to_file>`
 
 #### Acknowledgements and helpful resources:
-- Codility:
+- Codility lessons:
   - https://www.youtube.com/playlist?list=PLwEOixRFAUxZHuTDDgdmE0d4I40mBZLbF
   - https://codesays.com/solutions-to-training-by-codility/
 
