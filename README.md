@@ -21,17 +21,13 @@ For concepts and code implementations, in JavaScript, for the data structures an
   - Solutions
 
 #### Filters:
-- Dificulty:
+- Dificulty and Stars (Importance):
   - `#easy`
-  - `#medium`
-  - `#hard`
-
-- Stars (Importance):
-  - `#one`
-  - `#two`
-  - `#three`
-  - `#four`
-  - `#five`
+  - `#easy` `#one`
+  - `#medium` `#two` 
+  - `#medium` `#three`
+  - `#hard` `#four`
+  - `#hard` `#five`
 
 #### How to run:
 - run `node .<path_to_file>`
