@@ -39,3 +39,6 @@ For example, given:
 
 the function should return [2, 4, 3, 2, 0], as explained above.
 */
+
+/* EFFICIENT SOLUTION */
+// ...

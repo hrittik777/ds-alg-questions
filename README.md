@@ -33,7 +33,7 @@ For concepts and code implementations, in JavaScript, for the data structures an
 - run `node .<path_to_file>`
 
 #### Acknowledgements and helpful resources:
-- Codility lessons:
+- Codility:
   - https://www.youtube.com/playlist?list=PLwEOixRFAUxZHuTDDgdmE0d4I40mBZLbF
   - https://codesays.com/solutions-to-training-by-codility/
 

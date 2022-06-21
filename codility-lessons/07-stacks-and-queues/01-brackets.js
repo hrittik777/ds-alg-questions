@@ -51,5 +51,4 @@ function brackets(S) {
   else return 1;
 }
 
-
 brackets("{{{{"); 

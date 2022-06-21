@@ -52,6 +52,7 @@ so,for each element in the array, A[i]:
 
 see: https://www.youtube.com/watch?v=Xu_hTjFAauk
 */
+
 function minAvgTwoSlice(A) {
   // initializing minSlice to a number that is definitely larger than the entire array's average
   let minSlice = A.reduce((i, a) => i + a) / (A.length - 1) + 999;

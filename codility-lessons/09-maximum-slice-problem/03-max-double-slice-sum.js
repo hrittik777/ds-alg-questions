@@ -46,22 +46,24 @@ For example, given:
 the function should return 17, because no double slice of array A has a sum of greater than 17.
 */
 
-// NOTE:
-// if we have a triplet (X, Y, Z) it will consider: A[X+1] ... A[Y-1] + A[Y+1] + A[Y+2] ... A[Z-1]
-// i.e. it will never take A[X], A[Y] and A[Z]
-// therefore, the first and last element will always be ignored, also the split point, i.e. a[Y]
+/* HINT:
+if we have a triplet (X, Y, Z) it will consider: A[X+1] ... A[Y-1] + A[Y+1] + A[Y+2] ... A[Z-1]
+i.e. it will never take A[X], A[Y] and A[Z]
+therefore, the first and last element will always be ignored, also the split point, i.e. a[Y]
 
-// then,
-// LR: using Kadane's to find the max sum for any slices so far, starting from left to right
-// RL: using Kadane's to find the max sum for any slices so far starting from right to left
+then,
+LR: using Kadane's to find the max sum for any slices so far, starting from left to right
+RL: using Kadane's to find the max sum for any slices so far starting from right to left
 
-// then,
-// LRRL:
-// for each element of LR and RL
-// find the sum of the right slice and the left slice, always discarding one element in the middle
-// e.g., LR[0] + RL[2], LR[1] + RL[3] and so on...
-// if this sum is greater than or equal to both the elements, store it in LRRL
-// else store the bigger of the two elements in LRRL
+then,
+LRRL:
+for each element of LR and RL
+find the sum of the right slice and the left slice, always discarding one element in the middle
+e.g., LR[0] + RL[2], LR[1] + RL[3] and so on...
+if this sum is greater than or equal to both the elements, store it in LRRL
+else store the bigger of the two elements in LRRL 
+*/
+
 function maxDoubleSliceSum(A) {
   // since we will always ignore the first and last elements of the array 
   // therefore the first element of LR and and last element of RL will be 0

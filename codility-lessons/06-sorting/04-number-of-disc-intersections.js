@@ -52,7 +52,6 @@ function numberOfDiscIntersections(A) {
 }
 
 /* MORE EFFICIENT "INSANE" SOLUTION */
-// https://www.youtube.com/watch?v=pd_bd5SmkW0
-// come back to write this up later
+// ...
 
 numberOfDiscIntersections([1, 5, 2, 1, 4, 0]);
