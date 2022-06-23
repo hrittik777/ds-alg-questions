@@ -19,6 +19,7 @@ that, given a string S consisting of N characters, returns 1 if S is properly ne
 
 For example, given S = "{[()()]}", the function should return 1 and given S = "([)()]", the function should return 0, as explained above.
 */
+
 function brackets(S) {
   let brackets = {
     '[': 3, ']': -3,

@@ -38,6 +38,7 @@ For example, given:
 
 the function should return 5, as explained above.
 */
+
 function passingCars(A) {
   let east = 0;
   let pairs = 0;

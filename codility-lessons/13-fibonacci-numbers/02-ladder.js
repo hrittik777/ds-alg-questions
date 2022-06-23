@@ -45,7 +45,7 @@ the function should return the sequence [5, 1, 8, 0, 1], as explained above.
 */
 
 /* CORRECT BUT INEFFICIENT SOLUTION */
-/* using algorithm to find all possible combinations */
+/* using algorithm to find all possible combinations resulting in a sum */
 /* https://github.com/hrittik777/wikis/blob/main/javascript/utils.md#find-all-possible-combinations-of-a-given-array-of-numbers-summing-up-to-a-given-target */
 function ladder(A, B) {
   let final = [];
@@ -64,10 +64,10 @@ function ladder(A, B) {
       for (let i = 0; i < numbers.length; i++) {
         let n = numbers[i];
 
-        // if we don't wanna allow repetition of numbers
+        // if we wouldn't have wanted to allow repetition of numbers
         // let remaining = numbers.slice(i + 1); 
 
-        // if we wanna allow repetition of numbers
+        // but since we wanna allow repetition of numbers
         let remaining = numbers;
 
         combination(remaining, target, partial.concat([n]));
@@ -82,4 +82,34 @@ function ladder(A, B) {
 
 ladder([4, 4, 5, 5, 1], [3, 2, 4, 3, 1]);
 
-/* EFFICIENT SOLUTION */
+/* CORRECT AND MORE EFFICIENT SOLUTION */
+// fibonacci by DP
+function fibDyn(N) {
+  let res = Array(N + 1).fill(0);
+  res[1] = 1;
+
+  for (let i = 2; i <= N; i++) {
+    res[i] = res[i - 1] + res[i - 2];
+  }
+
+  return res;
+}
+
+function ladder(A, B) {
+  let res = [];
+
+  // any rung A[i] can be reached from rung A[i - 1] or A[i - 2]
+  // so ways of reaching A[i] = ways of reaching A[i - 1] + ways of reaching A[i - 2] + 2
+  // in fact, no. of ways of reaching A[i] = fib(A[i] + 1)
+
+  let N = A.length;
+  let fibArr = fibDyn(N + 2);
+
+  for (let i = 0; i < N; i++) {
+    res[i] = fibArr[A[i] + 1] % Math.pow(2, B[i]);
+  }
+
+  return res;
+}
+
+ladder([4, 4, 5, 5, 1], [3, 2, 4, 3, 1]);

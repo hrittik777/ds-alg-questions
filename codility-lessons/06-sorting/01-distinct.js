@@ -15,6 +15,7 @@ For example, given array A consisting of six elements such that:
 
 the function should return 3, because there are 3 distinct values appearing in array A, namely 1, 2 and 3.
 */
+
 function distinct(A) {
   let values = {};
 

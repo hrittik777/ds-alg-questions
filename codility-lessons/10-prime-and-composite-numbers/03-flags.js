@@ -59,6 +59,7 @@ For example, the following array A:
 
 the function should return 3, as explained above.
 */
+
 function flags(A) {
   // edge case
   if (A.length < 3) return 0;

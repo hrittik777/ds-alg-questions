@@ -28,6 +28,7 @@ For example, given array A such that:
 
 the function should return 7, as explained in the example above
 */
+
 function oddOccurrencesInArray(A) {
   let sortedArr = A.sort();
   let i = 0, count = 1;

@@ -16,6 +16,7 @@ Given A = [1, 2, 3], the function should return 4.
 
 Given A = [−1, −3], the function should return 1.
 */
+
 function missingInteger(A) {
   let arr = A.sort((a, b) => a - b);
   let res;

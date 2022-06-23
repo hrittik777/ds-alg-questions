@@ -57,7 +57,6 @@ the function should return 3, as explained above.
 
 /* MOSTLY CORRECT BUT INEFFICIENT SOLUTION */
 /* 83% accuracy, 16% performance */
-
 // fibonacci by recursion
 function fibRec(N) {
   if (N <= 1) return N;
@@ -141,5 +140,5 @@ fibFrog([1, 1, 0, 0, 0]);
 fibFrog([0, 0, 0]);
 fibFrog([0, 0, 0, 1, 0]);
 
-/* BETTER, MORE CORRECT AND PERFORMANT SOLUTION */
+/* BETTER, MORE CORRECT AND EFFICIENT SOLUTION */
 // ...

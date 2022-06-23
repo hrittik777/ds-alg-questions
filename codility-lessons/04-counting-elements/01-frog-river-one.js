@@ -45,6 +45,7 @@ For example, given X = 5 and array A such that:
 
 the function should return 6, as explained above.
 */
+
 function frogRiverOne(X, A) {
   let visited = {}, frogPos = 0, leafPos = 0;
 

@@ -39,6 +39,7 @@ For example, given:
 
 the function should return 1, as explained above.
 */
+
 function tapeEquilibrium(A) {
   let head = A[0];
   let tail = A.slice(1).reduce((i, a) => i + a);

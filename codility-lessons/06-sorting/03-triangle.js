@@ -30,6 +30,7 @@ the function should return 1, as explained above. Given array A such that:
 
 the function should return 0.
 */
+
 function triangle(A) {
   let arr = A.sort((a, b) => a - b);
   let existsTriangle = 0;

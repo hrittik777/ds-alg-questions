@@ -36,6 +36,7 @@ For example, given array A such that:
 
 the function should return 60, as the product of triplet (2, 4, 5) is maximal.
 */
+
 function maxProductOfThree(A) {
   let arr = A.sort((a, b) => a - b);
   let posProd = arr[arr.length - 1] * arr[arr.length - 2] * arr[arr.length - 3];

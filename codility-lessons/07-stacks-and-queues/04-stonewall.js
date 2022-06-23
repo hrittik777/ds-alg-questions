@@ -22,6 +22,7 @@ For example, given array H containing N = 9 integers:
 the function should return 7. The figure shows one possible arrangement of seven blocks.
 Figure: https://app.codility.com/programmers/lessons/7-stacks_and_queues/stone_wall/
 */
+
 function stoneWall(H) {
   let count = 0;
   let stack = [];

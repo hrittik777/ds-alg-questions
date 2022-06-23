@@ -43,6 +43,7 @@ Given array A such that:
     
 the function should return 0.
 */
+
 function permCheck(A) {
   let sum = 0;
   let numbers = {};

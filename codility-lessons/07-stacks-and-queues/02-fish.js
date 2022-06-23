@@ -35,6 +35,7 @@ that, given two non-empty arrays A and B consisting of N integers, returns the n
 
 For example, given the arrays shown above, the function should return 2, as explained above.
 */
+
 function fish(A, B) {
   let downstream = [];
   let eaten = 0;

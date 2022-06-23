@@ -25,6 +25,7 @@ after the first jump, at position 10 + 30 = 40
 after the second jump, at position 10 + 30 + 30 = 70
 after the third jump, at position 10 + 30 + 30 + 30 = 100
 */
+
 function frogJmp(X, Y, D) {
   let jumps = (Y - X) / D;
   let eval = (Y - X) % D;

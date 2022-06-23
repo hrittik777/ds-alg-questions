@@ -22,6 +22,7 @@ For example, given array A such that:
 
 the function should return 4, as it is the missing element.
 */
+
 function permMissingElem(A) {
   if (A.length) {
     // sum of consecutive integers from 1 to n is equal to n(n+1)/2

@@ -23,6 +23,7 @@ the function should return 5 because:
 
 no other slice of A has sum greater than (0, 1).
 */
+
 function maxSliceSum(A) {
   let sumGrEqElem = [A[0]];
   let max = A[0];

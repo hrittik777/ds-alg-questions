@@ -51,6 +51,7 @@ For example, given:
 
 the function should return [3, 2, 2, 4, 2], as explained above.
 */
+
 function maxCounters(N, A) {
   let arr = new Array(N).fill(0);
   let max = 0;

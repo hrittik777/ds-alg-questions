@@ -19,6 +19,7 @@ that, given a string S consisting of N characters, returns 1 if string S is prop
 
 For example, given S = "(()(())())", the function should return 1 and given S = "())", the function should return 0, as explained above.
 */
+
 function nesting(S) {
   let stack = [];
 
