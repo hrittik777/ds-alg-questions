@@ -5,8 +5,6 @@ This repository contains solutions in JavaScript to Data Structures and Algorith
 - Codility
 - Cracking The Coding Interview
 - Hackerrank
-- GFG
-- Codechef
 
 Instead of grinding straight through a hundred million questions, we'll be following some of the well-known **lists of problems** available online, to short-circuit the learning process and get a grasp over the common patterns of questions, before moving on to more challenging questions and CC platforms.
 
@@ -22,7 +20,7 @@ For concepts and code implementations, in JavaScript, for the data structures an
 
 #### Filters:
 - Dificulty and Stars (Importance):
-  - `#easy`
+  - `#easy` _unrated_
   - `#easy` `#one`
   - `#medium` `#two` 
   - `#medium` `#three`

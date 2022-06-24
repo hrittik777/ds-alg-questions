@@ -82,7 +82,7 @@ function ladder(A, B) {
 
 ladder([4, 4, 5, 5, 1], [3, 2, 4, 3, 1]);
 
-/* CORRECT AND MORE EFFICIENT SOLUTION */
+/* MORE EFFICIENT SOLUTION */
 // fibonacci by DP
 function fibDyn(N) {
   let res = Array(N + 1).fill(0);
@@ -107,6 +107,42 @@ function ladder(A, B) {
 
   for (let i = 0; i < N; i++) {
     res[i] = fibArr[A[i] + 1] % Math.pow(2, B[i]);
+  }
+
+  return res;
+}
+
+ladder([4, 4, 5, 5, 1], [3, 2, 4, 3, 1]);
+
+/* MOST EFFICIENT SOLUTION */
+// fibonacci by DP
+function fibDyn(N) {
+  let res = Array(N + 1).fill(0);
+  res[1] = 1;
+
+  for (let i = 2; i <= N; i++) {
+    res[i] = res[i - 1] + res[i - 2];
+  }
+
+  return res;
+}
+
+function ladder(A, B) {
+  let res = [];
+
+  // any rung A[i] can be reached from rung A[i - 1] or A[i - 2]
+  // so ways of reaching A[i] = ways of reaching A[i - 1] + ways of reaching A[i - 2] + 2
+  // in fact, no. of ways of reaching A[i] = fib(A[i] + 1)
+
+  let N = A.length;
+  let fibArr = fibDyn(N + 2);
+
+  for (let i = 0; i < B.length; i++) {
+    B[i] = (1 << B[i]) - 1;
+  }
+
+  for (let i = 0; i < N; i++) {
+    res[i] = fibArr[A[i] + 1] & B[i];
   }
 
   return res;
