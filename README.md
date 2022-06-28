@@ -1,6 +1,6 @@
-# Data Structures and Algorithms questions solved in JavaScript
+# Data Structures and Algorithms questions solved in JavaScript/TypeScript
 
-This repository contains solutions in JavaScript to Data Structures and Algorithms questions found on the following platforms:
+This repository contains solutions in JavaScript/TypeScript to Data Structures and Algorithms questions found on the following platforms:
 - LeetCode
 - Codility
 - Cracking The Coding Interview
@@ -33,5 +33,7 @@ For concepts and code implementations, in JavaScript, for the data structures an
 #### Acknowledgements and helpful resources:
 - Codility:
   - https://www.youtube.com/playlist?list=PLwEOixRFAUxZHuTDDgdmE0d4I40mBZLbF
+  - https://www.youtube.com/playlist?list=PLTMybUaeagJbTAelBd-pGBuAngpPtnw8b
   - https://codesays.com/solutions-to-training-by-codility/
+  - http://draganbozanovic.blogspot.com/2016/04/codility-nailingplanks-linear-complexity.html
 

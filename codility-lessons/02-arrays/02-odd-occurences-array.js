@@ -30,7 +30,7 @@ the function should return 7, as explained in the example above
 */
 
 function oddOccurrencesInArray(A) {
-  let sortedArr = A.sort();
+  let sortedArr = A.sort((a, b) => a - b);
   let i = 0, count = 1;
 
   if (sortedArr.length === 1) return sortedArr[0];
