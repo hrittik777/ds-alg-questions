@@ -202,10 +202,9 @@ function nailingPlanks(A, B, C) {
 
       // i.e. if the previous plank (i) wraps the current plank (j)
       // i.e. if endIdx[i] > endIdx[j], remove plank i
-      if (sortedPlanks[i] && sortedPlanks[j]) {
-        if (sortedPlanks[i][1] > sortedPlanks[j][1]) {
-          sortedPlanks.splice(i, 1);
-        }
+      // NOTE: this can be done more efficiently using a queue
+      if (sortedPlanks[i] && sortedPlanks[j] && sortedPlanks[i][1] > sortedPlanks[j][1]) {
+        sortedPlanks.splice(i, 1);
       }
     }
   }
