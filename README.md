@@ -1,6 +1,6 @@
-# Data Structures and Algorithms questions solved in JavaScript/TypeScript
+# Data Structures and Algorithms questions solved in JavaScript
 
-This repository contains solutions in JavaScript/TypeScript to Data Structures and Algorithms questions found on the following platforms:
+This repository contains solutions in JavaScript to Data Structures and Algorithms questions found on the following platforms:
 - LeetCode
 - Codility
 - Cracking The Coding Interview
@@ -55,3 +55,5 @@ This repository contains solutions in JavaScript/TypeScript to Data Structures a
     - [Leetcode Study Plan - LeetCode 75](https://leetcode.com/study-plan/leetcode-75/)
     - [Leetcode Study Plan - Data Structures](https://leetcode.com/study-plan/data-structure/)
     - [Leetcode Study Plan - Algorithms](https://leetcode.com/study-plan/algorithm/)
+    - [Leetcode Featured Lists - Top Interview Questions](https://leetcode.com/study-plan/top-interview-questions/)
+    - [Leetcode Featured Lists - LeetCode Curated Algo 170](https://leetcode.com/problem-list/leetcode-curated-algo-170/)
