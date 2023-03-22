@@ -23,17 +23,19 @@ This repository contains solutions in JavaScript to Data Structures and Algorith
   - `#two-pointers`
   - `#sliding-window`
   - `#stack`
+  - `#sorting`
   - `#binary-search`
   - `#linked-list`
   - `#tree`
   - `#trie`
+  - `#backtracking`
   - `#heap`
   - `#priority-queue`
   - `#backtracking`
   - `#graph`
-  - `#dynamic-programming`
-  - `#1d-dp`
-  - `#2d-dp`
+  - `#recursion`
+  - `#1d-dynamic-programming`
+  - `#2d-dynamic-programming`
   - `#greedy`
   - `#interval`
   - `#math`
